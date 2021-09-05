@@ -15,8 +15,8 @@ the output image will be saved in the `new_predictions` folder
 first run the `process_data()` function
 then call the `train()` function. 
 ```python
-from train_pokemon_DCGAN import train, generate_pokemon
-generate_pokemon()
+from train_pokemon_DCGAN import train, process_data
+process_data()
 train(epochs=100000, batch_size=128, save_interval=500)
 ```
 ## example:
